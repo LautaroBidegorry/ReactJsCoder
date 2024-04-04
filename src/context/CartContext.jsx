@@ -15,7 +15,7 @@ export const CartProvider = ({children}) => {
         } else {
             console.error('El producto ya fue agregado');
         }
-        console.log(cart)
+        console.log(cart); 
     }
 
     const removeItem = (itemId) => {
